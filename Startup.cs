@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.OpenApi.Models;
+using System;
 
 namespace Job_Weather_Report
 {
@@ -29,6 +29,7 @@ namespace Job_Weather_Report
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseHangfireDashboard();
+            RecurringJob.AddOrUpdate(() => Console.WriteLine("teste"), Cron.Minutely);
         }
     }
 }
