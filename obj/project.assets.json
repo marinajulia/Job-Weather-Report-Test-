@@ -89,6 +89,18 @@
           }
         }
       },
+      "Hangfire.MemoryStorage/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "1.7.35"
+        },
+        "compile": {
+          "lib/netstandard1.3/Hangfire.MemoryStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Hangfire.MemoryStorage.dll": {}
+        }
+      },
       "Hangfire.NetCore/1.8.5": {
         "type": "package",
         "dependencies": {
@@ -440,6 +452,19 @@
         "lib/netstandard2.0/zh/Hangfire.Core.resources.dll"
       ]
     },
+    "Hangfire.MemoryStorage/1.8.0": {
+      "sha512": "hfLkYiIbJx5OIfHEaFI4uzlgQBANW740A4nYKbsBImSV7RVpVJ//ABvj5JF9vYEF4f+6o/qY1SV2MEqOgAVXqA==",
+      "type": "package",
+      "path": "hangfire.memorystorage/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hangfire.memorystorage.1.8.0.nupkg.sha512",
+        "hangfire.memorystorage.nuspec",
+        "lib/net40/Hangfire.MemoryStorage.dll",
+        "lib/netstandard1.3/Hangfire.MemoryStorage.dll"
+      ]
+    },
     "Hangfire.NetCore/1.8.5": {
       "sha512": "ZwVZBBkzEpWlcXLvuytMghT+EYzvQDbdsGK6zO+ygWsW6I7GxKPxsY/U+9DEj3xB0lqqFmOUnBmOea5AvC7K8A==",
       "type": "package",
@@ -719,6 +744,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Hangfire >= 1.8.5",
+      "Hangfire.MemoryStorage >= 1.8.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -770,6 +796,10 @@
           "Hangfire": {
             "target": "Package",
             "version": "[1.8.5, )"
+          },
+          "Hangfire.MemoryStorage": {
+            "target": "Package",
+            "version": "[1.8.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

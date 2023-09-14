@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/LLEvtSKXJ+MTZY6r38dn5Pg4xYq5gSJLm3FBQCTRdMn69ZYKKLV52BC4yMGKOMtfEAaAcP8TuhpTvSShigOXQ==",
+  "dgSpecHash": "aKG5Ev6tGIZefP5Tftyb9LA3WKLd02s4FlarW84QMMN+1ODKmyui0HNybtLgV9Vrc5dLTKpjwgFmENV3wXE5EQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Marina\\OneDrive\\Área de Trabalho\\test\\Job-Weather-Report\\Job-Weather-Report.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marina\\.nuget\\packages\\hangfire\\1.8.5\\hangfire.1.8.5.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\hangfire.aspnetcore\\1.8.5\\hangfire.aspnetcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\hangfire.core\\1.8.5\\hangfire.core.1.8.5.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\hangfire.memorystorage\\1.8.0\\hangfire.memorystorage.1.8.0.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\hangfire.netcore\\1.8.5\\hangfire.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\hangfire.sqlserver\\1.8.5\\hangfire.sqlserver.1.8.5.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
