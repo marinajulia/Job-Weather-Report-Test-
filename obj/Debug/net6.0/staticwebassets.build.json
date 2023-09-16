@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "A+IlqnjMiGJkD/eVsDztpWC18zrcDleZ52NRIRdcO+4=",
+  "Source": "WeatherReportJob",
+  "BasePath": "_content/WeatherReportJob",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
