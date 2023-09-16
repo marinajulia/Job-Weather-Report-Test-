@@ -31,7 +31,7 @@ namespace Job_Weather_Report
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseHangfireDashboard();
-            RecurringJob.AddOrUpdate(() => jobscheduler.Execute(), Cron.Minutely);
+            RecurringJob.AddOrUpdate(() => jobscheduler.Execute(), Cron.Daily);
         }
     }
 }
